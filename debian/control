@@ -10,7 +10,6 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Uploaders: Michael Biebl <biebl@debian.org>
 Build-Depends: cdbs (>= 0.4.41),
                dh-autoreconf,
-               hardening-wrapper,
                gnome-pkg-tools (>= 0.10),
                gnome-common,
                debhelper (>= 8),
@@ -46,7 +45,8 @@ Package: libgoa-1.0-0
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
-         ${misc:Depends}
+         ${misc:Depends},
+         libgoa-1.0-common (= ${source:Version})
 Description: library for GNOME Online Accounts
  This package contains the GNOME Online Accounts service, which provides a
  centralized place for managing online accounts (Google, etc) for the
@@ -69,6 +69,17 @@ Description: library for GNOME Online Accounts - development files
  .
  This package contains the files needed to build applications that access
  the service.
+
+Package: libgoa-1.0-common
+Architecture: all
+Section: libs
+Depends: ${misc:Depends}
+Description: library for GNOME Online Accounts - common files
+ This package contains the GNOME Online Accounts service, which provides a
+ centralized place for managing online accounts (Google, etc) for the
+ GNOME desktop.
+ .
+ This package contains the translation files for the GOA library and daemon.
 
 Package: libgoa-1.0-doc
 Architecture: all

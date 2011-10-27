@@ -1,4 +1,4 @@
-gnome-online-accounts (3.2.1-1) UNRELEASED; urgency=low
+gnome-online-accounts (3.2.1-1) experimental; urgency=low
 
   [ Jeremy Bicha ]
   * Initial release. Closes: #646255
@@ -6,5 +6,6 @@ gnome-online-accounts (3.2.1-1) UNRELEASED; urgency=low
   [ Michael Biebl ]
   * Suggest devhelp instead of depending on lynx | www-browser.
   * Tigthen the dependency on gir1.2-goa-1.0.
+  * Add a libgoa-1.0-common package for the translation files.
 
- -- Michael Biebl <biebl@debian.org>  Sat, 22 Oct 2011 17:37:59 +0200
+ -- Michael Biebl <biebl@debian.org>  Thu, 27 Oct 2011 21:50:05 +0200
