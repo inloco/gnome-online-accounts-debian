@@ -151,6 +151,10 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_oauth2_based_call_get_access_token_finish@Base 3.1.1
  goa_oauth2_based_call_get_access_token_sync@Base 3.1.1
  goa_oauth2_based_complete_get_access_token@Base 3.1.1
+ goa_oauth2_based_dup_client_id@Base 3.3.0
+ goa_oauth2_based_dup_client_secret@Base 3.3.0
+ goa_oauth2_based_get_client_id@Base 3.3.0
+ goa_oauth2_based_get_client_secret@Base 3.3.0
  goa_oauth2_based_get_type@Base 3.1.1
  goa_oauth2_based_interface_info@Base 3.1.1
  goa_oauth2_based_override_properties@Base 3.2.0
@@ -161,6 +165,8 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_oauth2_based_proxy_new_for_bus_finish@Base 3.1.1
  goa_oauth2_based_proxy_new_for_bus_sync@Base 3.1.1
  goa_oauth2_based_proxy_new_sync@Base 3.1.1
+ goa_oauth2_based_set_client_id@Base 3.3.0
+ goa_oauth2_based_set_client_secret@Base 3.3.0
  goa_oauth2_based_skeleton_get_type@Base 3.1.1
  goa_oauth2_based_skeleton_new@Base 3.1.1
  goa_oauth_based_call_get_access_token@Base 3.1.1
@@ -194,7 +200,6 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_object_get_manager@Base 3.1.1
  goa_object_get_oauth2_based@Base 3.1.1
  goa_object_get_oauth_based@Base 3.1.1
- goa_object_get_password_based@Base 3.1.1
  goa_object_get_type@Base 3.1.1
  goa_object_manager_client_get_proxy_type@Base 3.1.1
  goa_object_manager_client_get_type@Base 3.1.1
@@ -213,7 +218,6 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_object_peek_manager@Base 3.1.1
  goa_object_peek_oauth2_based@Base 3.1.1
  goa_object_peek_oauth_based@Base 3.1.1
- goa_object_peek_password_based@Base 3.1.1
  goa_object_proxy_get_type@Base 3.1.1
  goa_object_proxy_new@Base 3.1.1
  goa_object_skeleton_get_type@Base 3.1.1
@@ -227,23 +231,6 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_object_skeleton_set_manager@Base 3.1.1
  goa_object_skeleton_set_oauth2_based@Base 3.1.1
  goa_object_skeleton_set_oauth_based@Base 3.1.1
- goa_object_skeleton_set_password_based@Base 3.1.1
- goa_password_based_call_get_password@Base 3.1.1
- goa_password_based_call_get_password_finish@Base 3.1.1
- goa_password_based_call_get_password_sync@Base 3.1.1
- goa_password_based_complete_get_password@Base 3.1.1
- goa_password_based_get_type@Base 3.1.1
- goa_password_based_interface_info@Base 3.1.1
- goa_password_based_override_properties@Base 3.2.0
- goa_password_based_proxy_get_type@Base 3.1.1
- goa_password_based_proxy_new@Base 3.1.1
- goa_password_based_proxy_new_finish@Base 3.1.1
- goa_password_based_proxy_new_for_bus@Base 3.1.1
- goa_password_based_proxy_new_for_bus_finish@Base 3.1.1
- goa_password_based_proxy_new_for_bus_sync@Base 3.1.1
- goa_password_based_proxy_new_sync@Base 3.1.1
- goa_password_based_skeleton_get_type@Base 3.1.1
- goa_password_based_skeleton_new@Base 3.1.1
 libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_editable_label_get_editable@Base 3.1.1
  goa_editable_label_get_scale@Base 3.1.1
@@ -309,4 +296,5 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_util_add_row_widget@Base 3.1.1
  goa_util_lookup_keyfile_boolean@Base 3.1.1
  goa_util_lookup_keyfile_string@Base 3.1.1
+ goa_windows_live_provider_get_type@Base 3.3.0
  goa_yahoo_provider_get_type@Base 3.1.1

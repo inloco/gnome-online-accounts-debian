@@ -1,8 +1,18 @@
-gnome-online-accounts (3.2.1-4) UNRELEASED; urgency=low
+gnome-online-accounts (3.3.0-1) experimental; urgency=low
 
+  [ Josselin Mouette ]
   * Update repository URL.
 
- -- Josselin Mouette <joss@debian.org>  Sat, 31 Dec 2011 13:58:58 +0100
+  [ Laurent Bigonville ]
+  * New upstream release
+    - debian/libgoa-1.0-0.symbols: Adjust symbols
+    - Drop debian/patches/02_sys_gettid.patch, applied upstream
+  * debian/control.in:
+    - Bump Standards-Version to 3.9.3 (no further changes)
+    - Drop duplicate Section to please lintian
+  * Convert to multi-arch
+
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 11 Mar 2012 18:03:24 +0100
 
 gnome-online-accounts (3.2.1-3) unstable; urgency=low
 
