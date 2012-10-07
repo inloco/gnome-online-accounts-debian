@@ -15,7 +15,14 @@ GNOME_MODULE := gnome-online-accounts
 LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
 
 DEB_CONFIGURE_EXTRA_FLAGS += --enable-gtk-doc \
-                             --enable-facebook
+  --enable-kerberos \
+  --enable-facebook \
+  --enable-twitter \
+  --enable-flicker \
+  --enable-yahoo \
+  --enable-windows-live \
+  --enable-google \
+  --enable-exchange
 
 # List any files which are not installed
 common-binary-post-install-arch:: list-missing
