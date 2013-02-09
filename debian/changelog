@@ -1,3 +1,11 @@
+gnome-online-accounts (3.6.2-1) experimental; urgency=low
+
+  * New upstream release
+    - Adjust .symbols file: some symbols have been dropped, but were not part
+      of the public API 
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 09 Feb 2013 23:23:42 +0100
+
 gnome-online-accounts (3.6.1-1) experimental; urgency=low
 
   * Team upload
