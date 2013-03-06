@@ -18,10 +18,12 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_account_get_chat_disabled@Base 3.5.1
  goa_account_get_contacts_disabled@Base 3.5.1
  goa_account_get_documents_disabled@Base 3.5.1
+ goa_account_get_files_disabled@Base 3.7.90
  goa_account_get_id@Base 3.1.1
  goa_account_get_identity@Base 3.1.1
  goa_account_get_is_temporary@Base 3.5.90
  goa_account_get_mail_disabled@Base 3.5.1
+ goa_account_get_photos_disabled@Base 3.7.90
  goa_account_get_presentation_identity@Base 3.1.1
  goa_account_get_provider_icon@Base 3.1.1
  goa_account_get_provider_name@Base 3.1.1
@@ -42,10 +44,12 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_account_set_chat_disabled@Base 3.5.1
  goa_account_set_contacts_disabled@Base 3.5.1
  goa_account_set_documents_disabled@Base 3.5.1
+ goa_account_set_files_disabled@Base 3.7.90
  goa_account_set_id@Base 3.1.1
  goa_account_set_identity@Base 3.1.1
  goa_account_set_is_temporary@Base 3.5.90
  goa_account_set_mail_disabled@Base 3.5.1
+ goa_account_set_photos_disabled@Base 3.7.90
  goa_account_set_presentation_identity@Base 3.1.1
  goa_account_set_provider_icon@Base 3.1.1
  goa_account_set_provider_name@Base 3.1.1
@@ -53,7 +57,10 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_account_set_ticketing_disabled@Base 3.5.90
  goa_account_skeleton_get_type@Base 3.1.1
  goa_account_skeleton_new@Base 3.1.1
+ goa_calendar_dup_uri@Base 3.7.90
+ goa_calendar_get_accept_ssl_errors@Base 3.7.90
  goa_calendar_get_type@Base 3.1.1
+ goa_calendar_get_uri@Base 3.7.90
  goa_calendar_interface_info@Base 3.1.1
  goa_calendar_override_properties@Base 3.2.0
  goa_calendar_proxy_get_type@Base 3.1.1
@@ -63,6 +70,8 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_calendar_proxy_new_for_bus_finish@Base 3.1.1
  goa_calendar_proxy_new_for_bus_sync@Base 3.1.1
  goa_calendar_proxy_new_sync@Base 3.1.1
+ goa_calendar_set_accept_ssl_errors@Base 3.7.90
+ goa_calendar_set_uri@Base 3.7.90
  goa_calendar_skeleton_get_type@Base 3.1.1
  goa_calendar_skeleton_new@Base 3.1.1
  goa_chat_get_type@Base 3.1.1
@@ -77,6 +86,7 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_chat_proxy_new_sync@Base 3.1.1
  goa_chat_skeleton_get_type@Base 3.1.1
  goa_chat_skeleton_new@Base 3.1.1
+ goa_check_version@Base 3.7.90
  goa_client_get_accounts@Base 3.1.1
  goa_client_get_manager@Base 3.1.1
  goa_client_get_object_manager@Base 3.1.1
@@ -85,7 +95,10 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_client_new@Base 3.1.1
  goa_client_new_finish@Base 3.1.1
  goa_client_new_sync@Base 3.1.1
+ goa_contacts_dup_uri@Base 3.7.90
+ goa_contacts_get_accept_ssl_errors@Base 3.7.90
  goa_contacts_get_type@Base 3.1.1
+ goa_contacts_get_uri@Base 3.7.90
  goa_contacts_interface_info@Base 3.1.1
  goa_contacts_override_properties@Base 3.2.0
  goa_contacts_proxy_get_type@Base 3.1.1
@@ -95,6 +108,8 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_contacts_proxy_new_for_bus_finish@Base 3.1.1
  goa_contacts_proxy_new_for_bus_sync@Base 3.1.1
  goa_contacts_proxy_new_sync@Base 3.1.1
+ goa_contacts_set_accept_ssl_errors@Base 3.7.90
+ goa_contacts_set_uri@Base 3.7.90
  goa_contacts_skeleton_get_type@Base 3.1.1
  goa_contacts_skeleton_new@Base 3.1.1
  goa_documents_get_type@Base 3.1.90
@@ -112,6 +127,7 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_error_get_type@Base 3.1.1
  goa_error_quark@Base 3.1.1
  goa_exchange_dup_host@Base 3.5.1
+ goa_exchange_get_accept_ssl_errors@Base 3.7.90
  goa_exchange_get_host@Base 3.5.1
  goa_exchange_get_type@Base 3.5.1
  goa_exchange_interface_info@Base 3.5.1
@@ -123,21 +139,45 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_exchange_proxy_new_for_bus_finish@Base 3.5.1
  goa_exchange_proxy_new_for_bus_sync@Base 3.5.1
  goa_exchange_proxy_new_sync@Base 3.5.1
+ goa_exchange_set_accept_ssl_errors@Base 3.7.90
  goa_exchange_set_host@Base 3.5.1
  goa_exchange_skeleton_get_type@Base 3.5.1
  goa_exchange_skeleton_new@Base 3.5.1
+ goa_files_dup_uri@Base 3.7.90
+ goa_files_get_accept_ssl_errors@Base 3.7.90
+ goa_files_get_type@Base 3.7.90
+ goa_files_get_uri@Base 3.7.90
+ goa_files_interface_info@Base 3.7.90
+ goa_files_override_properties@Base 3.7.90
+ goa_files_proxy_get_type@Base 3.7.90
+ goa_files_proxy_new@Base 3.7.90
+ goa_files_proxy_new_finish@Base 3.7.90
+ goa_files_proxy_new_for_bus@Base 3.7.90
+ goa_files_proxy_new_for_bus_finish@Base 3.7.90
+ goa_files_proxy_new_for_bus_sync@Base 3.7.90
+ goa_files_proxy_new_sync@Base 3.7.90
+ goa_files_set_accept_ssl_errors@Base 3.7.90
+ goa_files_set_uri@Base 3.7.90
+ goa_files_skeleton_get_type@Base 3.7.90
+ goa_files_skeleton_new@Base 3.7.90
  goa_mail_dup_email_address@Base 3.2.0
  goa_mail_dup_imap_host@Base 3.2.0
  goa_mail_dup_imap_user_name@Base 3.2.0
+ goa_mail_dup_name@Base 3.7.90
  goa_mail_dup_smtp_host@Base 3.2.0
  goa_mail_dup_smtp_user_name@Base 3.2.0
  goa_mail_get_email_address@Base 3.1.1
+ goa_mail_get_imap_accept_ssl_errors@Base 3.7.90
  goa_mail_get_imap_host@Base 3.1.1
  goa_mail_get_imap_supported@Base 3.1.1
+ goa_mail_get_imap_use_ssl@Base 3.7.90
  goa_mail_get_imap_use_tls@Base 3.1.1
  goa_mail_get_imap_user_name@Base 3.1.1
+ goa_mail_get_name@Base 3.7.90
+ goa_mail_get_smtp_accept_ssl_errors@Base 3.7.90
  goa_mail_get_smtp_host@Base 3.1.1
  goa_mail_get_smtp_supported@Base 3.1.1
+ goa_mail_get_smtp_use_ssl@Base 3.7.90
  goa_mail_get_smtp_use_tls@Base 3.1.1
  goa_mail_get_smtp_user_name@Base 3.1.1
  goa_mail_get_type@Base 3.1.1
@@ -151,16 +191,22 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_mail_proxy_new_for_bus_sync@Base 3.1.1
  goa_mail_proxy_new_sync@Base 3.1.1
  goa_mail_set_email_address@Base 3.1.1
+ goa_mail_set_imap_accept_ssl_errors@Base 3.7.90
  goa_mail_set_imap_host@Base 3.1.1
  goa_mail_set_imap_supported@Base 3.1.1
+ goa_mail_set_imap_use_ssl@Base 3.7.90
  goa_mail_set_imap_use_tls@Base 3.1.1
  goa_mail_set_imap_user_name@Base 3.1.1
+ goa_mail_set_name@Base 3.7.90
+ goa_mail_set_smtp_accept_ssl_errors@Base 3.7.90
  goa_mail_set_smtp_host@Base 3.1.1
  goa_mail_set_smtp_supported@Base 3.1.1
+ goa_mail_set_smtp_use_ssl@Base 3.7.90
  goa_mail_set_smtp_use_tls@Base 3.1.1
  goa_mail_set_smtp_user_name@Base 3.1.1
  goa_mail_skeleton_get_type@Base 3.1.1
  goa_mail_skeleton_new@Base 3.1.1
+ goa_major_version@Base 3.7.90
  goa_manager_call_add_account@Base 3.1.1
  goa_manager_call_add_account_finish@Base 3.1.1
  goa_manager_call_add_account_sync@Base 3.1.1
@@ -177,6 +223,8 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_manager_proxy_new_sync@Base 3.1.1
  goa_manager_skeleton_get_type@Base 3.1.1
  goa_manager_skeleton_new@Base 3.1.1
+ goa_micro_version@Base 3.7.90
+ goa_minor_version@Base 3.7.90
  goa_oauth2_based_call_get_access_token@Base 3.1.1
  goa_oauth2_based_call_get_access_token_finish@Base 3.1.1
  goa_oauth2_based_call_get_access_token_sync@Base 3.1.1
@@ -227,11 +275,13 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_object_get_contacts@Base 3.1.1
  goa_object_get_documents@Base 3.1.90
  goa_object_get_exchange@Base 3.5.1
+ goa_object_get_files@Base 3.7.90
  goa_object_get_mail@Base 3.1.1
  goa_object_get_manager@Base 3.1.1
  goa_object_get_oauth2_based@Base 3.1.1
  goa_object_get_oauth_based@Base 3.1.1
  goa_object_get_password_based@Base 3.5.1
+ goa_object_get_photos@Base 3.7.90
  goa_object_get_ticketing@Base 3.5.90
  goa_object_get_type@Base 3.1.1
  goa_object_manager_client_get_proxy_type@Base 3.1.1
@@ -248,11 +298,13 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_object_peek_contacts@Base 3.1.1
  goa_object_peek_documents@Base 3.1.90
  goa_object_peek_exchange@Base 3.5.1
+ goa_object_peek_files@Base 3.7.90
  goa_object_peek_mail@Base 3.1.1
  goa_object_peek_manager@Base 3.1.1
  goa_object_peek_oauth2_based@Base 3.1.1
  goa_object_peek_oauth_based@Base 3.1.1
  goa_object_peek_password_based@Base 3.5.1
+ goa_object_peek_photos@Base 3.7.90
  goa_object_peek_ticketing@Base 3.5.90
  goa_object_proxy_get_type@Base 3.1.1
  goa_object_proxy_new@Base 3.1.1
@@ -264,11 +316,13 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_object_skeleton_set_contacts@Base 3.1.1
  goa_object_skeleton_set_documents@Base 3.1.90
  goa_object_skeleton_set_exchange@Base 3.5.1
+ goa_object_skeleton_set_files@Base 3.7.90
  goa_object_skeleton_set_mail@Base 3.1.1
  goa_object_skeleton_set_manager@Base 3.1.1
  goa_object_skeleton_set_oauth2_based@Base 3.1.1
  goa_object_skeleton_set_oauth_based@Base 3.1.1
  goa_object_skeleton_set_password_based@Base 3.5.1
+ goa_object_skeleton_set_photos@Base 3.7.90
  goa_object_skeleton_set_ticketing@Base 3.5.90
  goa_password_based_call_get_password@Base 3.5.1
  goa_password_based_call_get_password_finish@Base 3.5.1
@@ -286,6 +340,18 @@ libgoa-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_password_based_proxy_new_sync@Base 3.5.1
  goa_password_based_skeleton_get_type@Base 3.5.1
  goa_password_based_skeleton_new@Base 3.5.1
+ goa_photos_get_type@Base 3.7.90
+ goa_photos_interface_info@Base 3.7.90
+ goa_photos_override_properties@Base 3.7.90
+ goa_photos_proxy_get_type@Base 3.7.90
+ goa_photos_proxy_new@Base 3.7.90
+ goa_photos_proxy_new_finish@Base 3.7.90
+ goa_photos_proxy_new_for_bus@Base 3.7.90
+ goa_photos_proxy_new_for_bus_finish@Base 3.7.90
+ goa_photos_proxy_new_for_bus_sync@Base 3.7.90
+ goa_photos_proxy_new_sync@Base 3.7.90
+ goa_photos_skeleton_get_type@Base 3.7.90
+ goa_photos_skeleton_new@Base 3.7.90
  goa_ticketing_call_get_ticket@Base 3.5.90
  goa_ticketing_call_get_ticket_finish@Base 3.5.90
  goa_ticketing_call_get_ticket_sync@Base 3.5.90
@@ -320,6 +386,7 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_ews_client_new@Base 3.5.1
  goa_exchange_provider_get_type@Base 3.5.1
  goa_facebook_provider_get_type@Base 3.1.1
+ goa_flickr_provider_get_type@Base 3.7.90
  goa_google_provider_get_type@Base 3.1.1
  goa_http_client_check@Base 3.6.2
  goa_http_client_check_finish@Base 3.6.2
@@ -388,9 +455,21 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_identity_service_object_skeleton_new@Base 3.5.90
  goa_identity_service_object_skeleton_set_identity@Base 3.5.90
  goa_identity_service_object_skeleton_set_manager@Base 3.5.90
+ goa_imap_auth_login_get_type@Base 3.7.90
+ goa_imap_auth_login_new@Base 3.7.90
+ goa_imap_smtp_provider_get_type@Base 3.7.90
  goa_kerberos_provider_get_type@Base 3.5.90
  goa_log@Base 3.1.1
- goa_log_level_get_type@Base 3.1.1
+ goa_log_init@Base 3.7.90
+ goa_mail_auth_get_type@Base 3.7.90
+ goa_mail_auth_run@Base 3.7.90
+ goa_mail_auth_run_finish@Base 3.7.90
+ goa_mail_auth_run_sync@Base 3.7.90
+ goa_mail_client_check@Base 3.7.90
+ goa_mail_client_check_finish@Base 3.7.90
+ goa_mail_client_check_sync@Base 3.7.90
+ goa_mail_client_get_type@Base 3.7.90
+ goa_mail_client_new@Base 3.7.90
  goa_oauth2_provider_add_account_key_values@Base 3.1.1
  goa_oauth2_provider_build_authorization_uri@Base 3.1.1
  goa_oauth2_provider_get_access_token_sync@Base 3.1.1
@@ -407,6 +486,7 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_oauth2_provider_get_use_mobile_browser@Base 3.5.2
  goa_oauth2_provider_is_deny_node@Base 3.5.4
  goa_oauth2_provider_is_identity_node@Base 3.6.1
+ goa_oauth2_provider_is_password_node@Base 3.7.90
  goa_oauth_provider_add_account_key_values@Base 3.1.1
  goa_oauth_provider_build_authorization_uri@Base 3.1.1
  goa_oauth_provider_get_access_token_sync@Base 3.1.1
@@ -426,18 +506,22 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_oauth_provider_is_identity_node@Base 3.6.1
  goa_oauth_provider_is_password_node@Base 3.6.2
  goa_oauth_provider_parse_request_token_error@Base 3.5.1
+ goa_owncloud_provider_get_type@Base 3.7.90
  goa_provider_add_account@Base 3.1.1
  goa_provider_build_object@Base 3.1.1
  goa_provider_ensure_credentials@Base 3.1.1
  goa_provider_ensure_credentials_finish@Base 3.1.1
  goa_provider_ensure_credentials_sync@Base 3.1.1
+ goa_provider_ensure_extension_points_registered@Base 3.7.90
  goa_provider_get_all@Base 3.1.1
  goa_provider_get_credentials_generation@Base 3.1.1
  goa_provider_get_for_provider_type@Base 3.1.1
+ goa_provider_get_provider_group@Base 3.7.90
  goa_provider_get_provider_icon@Base 3.1.1
  goa_provider_get_provider_name@Base 3.1.1
  goa_provider_get_provider_type@Base 3.1.1
  goa_provider_get_type@Base 3.1.1
+ goa_provider_group_get_type@Base 3.7.90
  goa_provider_refresh_account@Base 3.1.1
  goa_provider_show_account@Base 3.1.1
  goa_realm_common_call_change_login_policy@Base 3.6.2
@@ -606,11 +690,14 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_realm_service_proxy_new_sync@Base 3.6.2
  goa_realm_service_skeleton_get_type@Base 3.6.2
  goa_realm_service_skeleton_new@Base 3.6.2
+ goa_smtp_auth_plain_get_type@Base 3.7.90
+ goa_smtp_auth_plain_new@Base 3.7.90
  goa_spinner_button_get_type@Base 3.5.92
  goa_spinner_button_new_from_stock@Base 3.5.92
  goa_spinner_button_set_label@Base 3.5.92
  goa_spinner_button_start@Base 3.5.92
  goa_spinner_button_stop@Base 3.5.92
+ goa_twitter_provider_get_type@Base 3.7.90
  goa_util_account_notify_property_cb@Base 3.5.1
  goa_util_add_account_info@Base 3.5.1
  goa_util_add_row_switch_from_keyfile_with_blurb@Base 3.5.1
@@ -623,7 +710,9 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_utils_keyfile_set_boolean@Base 3.6.2
  goa_utils_keyfile_set_string@Base 3.5.90
  goa_utils_lookup_credentials_sync@Base 3.5.3
+ goa_utils_parse_email_address@Base 3.7.90
  goa_utils_set_dialog_title@Base 3.5.92
+ goa_utils_set_error_ssl@Base 3.7.90
  goa_utils_store_credentials_for_id_sync@Base 3.5.3
  goa_utils_store_credentials_for_object_sync@Base 3.5.3
  goa_web_view_fake_mobile@Base 3.5.2
@@ -631,6 +720,7 @@ libgoa-backend-1.0.so.0 libgoa-1.0-0 #MINVER#
  goa_web_view_get_view@Base 3.5.1
  goa_web_view_new@Base 3.5.1
  goa_windows_live_provider_get_type@Base 3.3.0
+ goa_yahoo_provider_get_type@Base 3.7.90
  nautilus_floating_bar_add_action@Base 3.5.1
  nautilus_floating_bar_cleanup_actions@Base 3.5.1
  nautilus_floating_bar_get_type@Base 3.5.1

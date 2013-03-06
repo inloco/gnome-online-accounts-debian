@@ -18,10 +18,11 @@ DEB_CONFIGURE_EXTRA_FLAGS += --enable-gtk-doc \
   --enable-kerberos \
   --enable-facebook \
   --enable-twitter \
-  --enable-flicker \
+  --enable-flickr \
   --enable-yahoo \
   --enable-windows-live \
   --enable-google \
+  --enable-imap-smtp \
   --enable-exchange
 
 # List any files which are not installed
