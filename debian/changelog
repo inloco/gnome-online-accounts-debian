@@ -1,3 +1,9 @@
+gnome-online-accounts (3.10.0-2) experimental; urgency=low
+
+  * Drop debian version from breaks
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 02 Nov 2013 22:07:53 +0100
+
 gnome-online-accounts (3.10.0-1) experimental; urgency=low
 
   * Sync changes from Ubuntu Gnome3 Staging PPA (3.10.0-0ubuntu1~saucy1)
