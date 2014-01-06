@@ -1,4 +1,4 @@
-gnome-online-accounts (3.10.2-1) UNRELEASED; urgency=medium
+gnome-online-accounts (3.10.2-1) experimental; urgency=medium
 
   * Sync from Ubuntu: Use Conflicts/Replaces for libgoa-1.0-0; we want to make
     sure this package is really gone.
@@ -20,7 +20,7 @@ gnome-online-accounts (3.10.2-1) UNRELEASED; urgency=medium
   * debian/libgoa-backend-1.0-1.symbols:
     - Updated
 
- -- Iain Lane <laney@debian.org>  Thu, 19 Dec 2013 11:12:11 +0000
+ -- Iain Lane <laney@debian.org>  Mon, 06 Jan 2014 11:39:44 +0000
 
 gnome-online-accounts (3.10.0-2) experimental; urgency=low
 
