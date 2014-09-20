@@ -1,8 +1,8 @@
-gnome-online-accounts (3.13.92-1) UNRELEASED; urgency=medium
+gnome-online-accounts (3.13.92-1) unstable; urgency=medium
 
   * New upstream release
 
- -- Sjoerd Simons <sjoerd@debian.org>  Sat, 20 Sep 2014 10:28:24 +0200
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 20 Sep 2014 10:31:59 +0200
 
 gnome-online-accounts (3.13.91-1) experimental; urgency=medium
 
