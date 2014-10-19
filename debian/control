@@ -6,7 +6,7 @@ Source: gnome-online-accounts
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Laurent Bigonville <bigon@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-Depends: cdbs (>= 0.4.93~),
                dh-autoreconf,
                gnome-pkg-tools (>= 0.10),
@@ -29,18 +29,18 @@ Build-Depends: cdbs (>= 0.4.93~),
                libglib2.0-doc,
                libdbus-glib-1-dev,
                libtelepathy-glib-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/gnome-online-accounts
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-online-accounts/
-Homepage: https://wiki.gnome.org/GnomeOnlineAccounts
+Homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
 
 Package: gnome-online-accounts
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libgoa-1.0-0b (= ${binary:Version})
-Recommends: gnome-control-center (>= 3.6.1), realmd
-Description: GNOME Online Accounts
+Recommends: gnome-control-center (>= 3.6.1), realmd, dleyna-server [linux-any]
+Description: service to manage online accounts for the GNOME desktop
  This package contains the GNOME Online Accounts service, which provides a
  centralized place for managing online accounts (Google, etc) for the
  GNOME desktop.

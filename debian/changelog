@@ -1,3 +1,15 @@
+gnome-online-accounts (3.14.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control.in:
+    - Bump Standards-Version to 3.9.6 (no further changes)
+    - Fix the short description to please lintian
+    - Update Homepage URL
+    - Recommends dleyna-server on linux architectures, it can be used to add
+      Media servers and mine their content
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 20 Oct 2014 00:29:37 +0200
+
 gnome-online-accounts (3.14.0-1) unstable; urgency=medium
 
   * New upstream release.
