@@ -6,7 +6,7 @@ Source: gnome-online-accounts
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Iain Lane <laney@debian.org>, Laurent Bigonville <bigon@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Laurent Bigonville <bigon@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-Depends: cdbs (>= 0.4.93~),
                dh-autoreconf,
                gnome-pkg-tools (>= 0.10),
