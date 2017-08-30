@@ -6,7 +6,7 @@ Source: gnome-online-accounts
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Michael Biebl <biebl@debian.org>
+Uploaders: Jeremy Bicha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper (>= 10),
                gnome-common,
                gnome-pkg-tools (>= 0.10),
@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 10),
                intltool (>= 0.50.1),
                libgcr-3-dev,
                libgirepository1.0-dev (>= 0.9.3),
-               libglib2.0-dev (>= 2.40),
+               libglib2.0-dev (>= 2.52),
                libglib2.0-doc,
                libgtk-3-dev (>= 3.19.12),
                libjson-glib-dev,
@@ -26,7 +26,7 @@ Build-Depends: debhelper (>= 10),
                libtelepathy-glib-dev,
                libwebkit2gtk-4.0-dev (>= 2.7.2),
                valac
-Standards-Version: 3.9.8
+Standards-Version: 4.1.0
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-online-accounts
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-online-accounts/
 Homepage: https://wiki.gnome.org/Projects/GnomeOnlineAccounts
@@ -69,7 +69,7 @@ Section: libdevel
 Depends: gir1.2-goa-1.0 (= ${binary:Version}),
          libgoa-1.0-0b (= ${binary:Version}),
          libgoa-backend-1.0-dev,
-         libglib2.0-dev,
+         libglib2.0-dev (>= 2.52),
          libgtk-3-dev,
          librest-dev,
          ${misc:Depends}

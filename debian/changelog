@@ -1,3 +1,17 @@
+gnome-online-accounts (3.25.90-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control.in:
+    - Bump minimum libglib2.0-dev to 2.52
+  * debian/rules: Explicitly enable Todoist and Telepathy
+  * Add new symbols and drop 2 apparently unused symbols
+    that are part of the "private" API
+    - goa_oauth2_provider_get_authentication_cookie
+    - goa_oauth_provider_get_authentication_cookie
+  * Bump Standards-Version to 4.1.0
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Tue, 29 Aug 2017 20:14:26 -0400
+
 gnome-online-accounts (3.22.5-1) unstable; urgency=medium
 
   * New upstream release.

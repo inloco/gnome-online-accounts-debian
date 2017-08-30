@@ -34,6 +34,7 @@ libgoa-1.0.so.0 libgoa-1.0-0b #MINVER#
  goa_account_get_provider_type@Base 3.1.1
  goa_account_get_read_later_disabled@Base 3.11.90
  goa_account_get_ticketing_disabled@Base 3.5.90
+ goa_account_get_todo_disabled@Base 3.25.4
  goa_account_get_type@Base 3.1.1
  goa_account_interface_info@Base 3.1.1
  goa_account_override_properties@Base 3.1.1
@@ -65,6 +66,7 @@ libgoa-1.0.so.0 libgoa-1.0-0b #MINVER#
  goa_account_set_provider_type@Base 3.1.1
  goa_account_set_read_later_disabled@Base 3.11.90
  goa_account_set_ticketing_disabled@Base 3.5.90
+ goa_account_set_todo_disabled@Base 3.25.4
  goa_account_skeleton_get_type@Base 3.1.1
  goa_account_skeleton_new@Base 3.1.1
  goa_calendar_dup_uri@Base 3.7.90
@@ -347,6 +349,7 @@ libgoa-1.0.so.0 libgoa-1.0-0b #MINVER#
  goa_object_get_printers@Base 3.11.90
  goa_object_get_read_later@Base 3.11.90
  goa_object_get_ticketing@Base 3.5.90
+ goa_object_get_todo@Base 3.25.4
  goa_object_get_type@Base 3.1.1
  goa_object_manager_client_get_proxy_type@Base 3.1.1
  goa_object_manager_client_get_type@Base 3.1.1
@@ -375,6 +378,7 @@ libgoa-1.0.so.0 libgoa-1.0-0b #MINVER#
  goa_object_peek_printers@Base 3.11.90
  goa_object_peek_read_later@Base 3.11.90
  goa_object_peek_ticketing@Base 3.5.90
+ goa_object_peek_todo@Base 3.25.4
  goa_object_proxy_get_type@Base 3.1.1
  goa_object_proxy_new@Base 3.1.1
  goa_object_skeleton_get_type@Base 3.1.1
@@ -398,6 +402,7 @@ libgoa-1.0.so.0 libgoa-1.0-0b #MINVER#
  goa_object_skeleton_set_printers@Base 3.11.90
  goa_object_skeleton_set_read_later@Base 3.11.90
  goa_object_skeleton_set_ticketing@Base 3.5.90
+ goa_object_skeleton_set_todo@Base 3.25.4
  goa_password_based_call_get_password@Base 3.5.1
  goa_password_based_call_get_password_finish@Base 3.5.1
  goa_password_based_call_get_password_sync@Base 3.5.1
@@ -469,3 +474,15 @@ libgoa-1.0.so.0 libgoa-1.0-0b #MINVER#
  goa_ticketing_set_details@Base 3.17.92
  goa_ticketing_skeleton_get_type@Base 3.5.90
  goa_ticketing_skeleton_new@Base 3.5.90
+ goa_todo_get_type@Base 3.25.4
+ goa_todo_interface_info@Base 3.25.4
+ goa_todo_override_properties@Base 3.25.4
+ goa_todo_proxy_get_type@Base 3.25.4
+ goa_todo_proxy_new@Base 3.25.4
+ goa_todo_proxy_new_finish@Base 3.25.4
+ goa_todo_proxy_new_for_bus@Base 3.25.4
+ goa_todo_proxy_new_for_bus_finish@Base 3.25.4
+ goa_todo_proxy_new_for_bus_sync@Base 3.25.4
+ goa_todo_proxy_new_sync@Base 3.25.4
+ goa_todo_skeleton_get_type@Base 3.25.4
+ goa_todo_skeleton_new@Base 3.25.4
