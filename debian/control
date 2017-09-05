@@ -6,7 +6,7 @@ Source: gnome-online-accounts
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Jeremy Bicha <jbicha@ubuntu.com>, Michael Biebl <biebl@debian.org>
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Michael Biebl <biebl@debian.org>
 Build-Depends: debhelper (>= 10),
                gnome-common,
                gnome-pkg-tools (>= 0.10),
