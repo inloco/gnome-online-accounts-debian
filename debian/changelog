@@ -1,3 +1,15 @@
+gnome-online-accounts (3.26.0-1) unstable; urgency=medium
+
+  * New upstream translations release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 13 Sep 2017 06:34:22 -0400
+
+gnome-online-accounts (3.25.92-1) unstable; urgency=medium
+
+  * New upstream translations release
+
+ -- Jeremy Bicha <jbicha@debian.org>  Tue, 05 Sep 2017 13:43:42 -0400
+
 gnome-online-accounts (3.25.90-1) unstable; urgency=medium
 
   * New upstream release
