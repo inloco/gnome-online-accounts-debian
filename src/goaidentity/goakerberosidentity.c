@@ -1048,27 +1048,34 @@ on_kerberos_inquiry (krb5_context      kerberos_context,
   GoaIdentityInquiry *inquiry;
   krb5_error_code error_code;
 
-  inquiry = goa_kerberos_identity_inquiry_new (operation->identity,
-                                               name,
-                                               banner,
-                                               prompts,
-                                               number_of_prompts);
+  if (number_of_prompts > 0)
+    {
+      inquiry = goa_kerberos_identity_inquiry_new (operation->identity,
+                                                  name,
+                                                  banner,
+                                                  prompts,
+                                                  number_of_prompts);
 
-  operation->inquiry_func (inquiry,
-                           operation->cancellable,
-                           operation->inquiry_data);
+      operation->inquiry_func (inquiry,
+                              operation->cancellable,
+                              operation->inquiry_data);
 
-  if (goa_identity_inquiry_is_failed (inquiry))
-    error_code = KRB5_LIBOS_CANTREADPWD;
-  else if (!goa_identity_inquiry_is_complete (inquiry))
-    g_cancellable_cancel (operation->cancellable);
+      if (goa_identity_inquiry_is_failed (inquiry))
+        error_code = KRB5_LIBOS_CANTREADPWD;
+      else if (!goa_identity_inquiry_is_complete (inquiry))
+        g_cancellable_cancel (operation->cancellable);
 
-  if (g_cancellable_is_cancelled (operation->cancellable))
-    error_code = KRB5_LIBOS_PWDINTR;
+      if (g_cancellable_is_cancelled (operation->cancellable))
+        error_code = KRB5_LIBOS_PWDINTR;
+      else
+        error_code = 0;
+
+      g_object_unref (inquiry);
+    }
   else
-    error_code = 0;
-
-  g_object_unref (inquiry);
+    {
+        error_code = 0;
+    }
 
   return error_code;
 }

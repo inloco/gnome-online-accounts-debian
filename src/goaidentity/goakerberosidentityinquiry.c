@@ -146,7 +146,6 @@ goa_kerberos_identity_inquiry_new (GoaKerberosIdentity * identity,
   int i;
 
   g_return_val_if_fail (GOA_IS_KERBEROS_IDENTITY (identity), NULL);
-  g_return_val_if_fail (number_of_prompts > 0, NULL);
 
   object = g_object_new (GOA_TYPE_KERBEROS_IDENTITY_INQUIRY, NULL);
 
